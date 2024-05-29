@@ -73,7 +73,7 @@ let swiperHome = new Swiper('.home__swiper', {
 /*=============== FEATURED SWIPER ===============*/
 let swiperFeatured = new Swiper('.featured__swiper', {
     loop: true,
-    spaceBetween: -16,
+    spaceBetween: 16,
     grabCursor: true,
     slidesPerView: 'auto',
     centeredSlides: 'auto',
@@ -92,7 +92,17 @@ let swiperFeatured = new Swiper('.featured__swiper', {
 });
 
 /*=============== NEW SWIPER ===============*/
+let swiperNew = new Swiper('.new__swiper', {
+    loop: true,
+    spaceBetween: 16,
+    slidesPerView: 'auto',
 
+    breakpoints: {
+        1150: {
+            spaceBetween: 3,
+        }
+    }
+});
 
 /*=============== TESTIMONIAL SWIPER ===============*/
 
