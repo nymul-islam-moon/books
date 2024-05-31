@@ -190,7 +190,7 @@ const sr = ScrollReveal({
 })
 
 sr.reveal(`.home__data, .featured__container, .new__container,
-            .join__data, .testimonial__container, .footer`)
+            .join__data, .testimonial__container, .books__container, .footer`)
 sr.reveal(`.home__images`, {delay: 600})
 sr.reveal(`.services__card`, {interval: 100})
 sr.reveal(`.discount__data`, {origin: 'left'})
